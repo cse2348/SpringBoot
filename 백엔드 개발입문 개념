@@ -38,8 +38,12 @@ hello.html :서버에 요청하는 파일
 action : URL연결주소를 적어 action=”/a/b”로 설정
 → [localhost:8080/a/b](http://localhost:8080/a/b로) 페이지로 폼데이터를 보낸다는 뜻
 
+ Article : 관리대상 엔티티의 클래스 타입
+Long: 관리대상 엔티티의 대푯값 타입
+
 데이터베이스 : 데이터를 관리하는 창고
 DB는 SQL언어 사용 → JPA사용(자바언어로 DB에 명령을 내리는 도구)
+CRUD -> create(insert) , read(select/조회),update(update),delete(delete)
 
 JPA핵심도구
 엔티티: 자바 객체를 DB가 이해할수 있게 만든것으로 이를 기반으로 테이블이 만들어짐
